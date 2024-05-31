@@ -150,17 +150,6 @@ services-ingress   nginx   hello.cloudcrypto.in,profile.cloudcrypto.in,cloudcryp
 
 ![image](https://github.com/kaverigojre/Deploy-a-MERN-application-using-AKS/assets/15703572/f519ea3e-487b-4f14-9745-fba6e042529f)
 
-
-![kubernetes Workload](./Screenshots/image-9.png)
-
-![kubernetes Service and Ingress](./Screenshots/image-10.png)
-
-![kubernetes Configuration](./Screenshots/image-11.png)
-
-![kubernetes Custom Resource](./Screenshots/image-12.png)
-
-![Monitoring Insight](./Screenshots/image-13.png)
-
 ![profile service](./Screenshots/image-14.png)
 
 ![hello service](./Screenshots/image-15.png)
@@ -228,6 +217,4 @@ az aks list --output table
 
 ```
 
-![Cluster list and Delete Resouce](./Screenshots/image-18.png)
 
-![Deleting Resouce and get emply cluster list](./Screenshots/image-19.png)
