@@ -105,13 +105,14 @@ microsoft.insights
 
 ## Step 6: Create AKS Cluster
 ```bash
-az aks create --resource-group mern_deploy --name mern-micro-cluster --node-count 2 --enable-addons monitoring --generate-ssh-keys
+az aks create --resource-group SampleMERN --name mern-micro-cluster --node-count 2 --enable-addons monitoring --generate-ssh-keys
+
 
 ```
 
 ## Step 7: Kubectl command enable
 ```bash
-az aks get-credentials --resource-group mern_deploy --name mern-micro-cluster
+az aks get-credentials --resource-group SampleMERN --name mern-micro-cluster
 ```
 
 ## Step 8: Install NGINX Ingress Controller
