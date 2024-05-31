@@ -72,17 +72,17 @@ CMD ["npm", "start"]
 
 ## Step 3: Create Docker images and pushed into dockerhub
 ```bash
-docker build -t simple_mearn_be_micro_1 .
-docker build -t simple_mearn_be_micro_2 .
-docker build -t simple_mern_micro_fe .
+docker build -t profilebackend:latets .
+docker build -t hellobackend:latest .
+docker build -t samplefrontend:latest .
 
-docker tag simple_mearn_be_micro_1 surendergupta/simple_mearn_be_micro_1:latest
-docker tag simple_mearn_be_micro_2 surendergupta/simple_mearn_be_micro_2:latest
-docker tag simple_mern_micro_fe surendergupta/simple_mern_micro_fe:latest
+docker tag profilebackend:latets kaverigojare/samplemernwithmicroservicesbackendprofile:latest
+docker tag hellobackend:latest kaverigojare/samplemernwithmicroservicesbackendhello:latest
+docker tag samplefrontend:latest kaverigojare/samplemernwithmicroservicesfrontend:latest
 
-docker push surendergupta/simple_mearn_be_micro_1:latest
-docker push surendergupta/simple_mearn_be_micro_2:latest
-docker push surendergupta/simple_mern_micro_fe:latest
+ docker push kaverigojare/samplemernwithmicroservicesbackendprofile:latest
+ docker push kaverigojare/samplemernwithmicroservicesbackendhello:latest
+ docker push kaverigojare/samplemernwithmicroservicesfrontend:latest
 
 ```
 
