@@ -151,16 +151,6 @@ services-ingress   nginx   hello.cloudcrypto.in,profile.cloudcrypto.in,cloudcryp
 ![image](https://github.com/kaverigojre/Deploy-a-MERN-application-using-AKS/assets/15703572/f519ea3e-487b-4f14-9745-fba6e042529f)
 
 
-![get Pods](./Screenshots/image-4.png)
-
-![get service](./Screenshots/image-5.png)
-
-![get ingress](./Screenshots/image-6.png)
-
-![azure cluster](./Screenshots/image-7.png)
-
-![kubernetes Namespaces](./Screenshots/image-8.png)
-
 ![kubernetes Workload](./Screenshots/image-9.png)
 
 ![kubernetes Service and Ingress](./Screenshots/image-10.png)
