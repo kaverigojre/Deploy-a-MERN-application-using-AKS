@@ -143,7 +143,7 @@ services-ingress   nginx   hello.cloudcrypto.in,profile.cloudcrypto.in,cloudcryp
 
 ## Screenshot
 
-![push docker hub](./Screenshots/image.png)
+![image](https://github.com/kaverigojre/Deploy-a-MERN-application-using-AKS/assets/15703572/b63da51c-2eaf-47b6-89d8-8e231a11b8b5)
 
 ![register resource provider](./Screenshots/image-1.png)
 
