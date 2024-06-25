@@ -1,5 +1,5 @@
 
-# SampleMERNwithMicroservices
+# Sample MERN with Microservices
 Deploying a MERN (MongoDB, Express.js, React, Node.js) application using Azure Kubernetes Service (AKS) involves several steps.
 
 ## Prerequisites
